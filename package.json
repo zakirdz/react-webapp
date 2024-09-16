@@ -1,29 +1,23 @@
 {
-  "name": "weather-app",
+  "name": "cloudacademy-web-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "faker": "^4.1.0",
-    "jest": "23.6.0",
-    "jest-cli": "23.6.0",
-    "puppeteer": "^1.11.0"
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-syntax-flow": "^7.14.5",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "typescript": ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test --env=jsdom --coverage --coverageDirectory=output/coverage/jest",
     "eject": "react-scripts eject"
-  },
-  "jest": {
-    "coverageReporters": [
-      "text",
-      "html"
-    ]
   },
   "eslintConfig": {
     "extends": "react-app"
